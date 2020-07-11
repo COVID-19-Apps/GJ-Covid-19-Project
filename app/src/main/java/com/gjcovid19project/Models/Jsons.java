@@ -3,12 +3,12 @@ package com.gjcovid19project.Models;
 public class Jsons {
 
     String  home_treatment_images, home_treatment_links, toll_numbers, lab_test, donate,
-            tweets, faq, epass, migrant, corona, cbse, vocational_education, go, video;
+            tweets, faq, epass, migrant, corona, cbse, health_care, vocational_education, go, video;
 
     public Jsons() {
     }
 
-    public Jsons(String home_treatment_images, String home_treatment_links, String toll_numbers, String lab_test, String donate, String tweets, String faq, String epass, String migrant, String corona, String cbse, String vocational_education, String go, String video) {
+    public Jsons(String home_treatment_images, String home_treatment_links, String toll_numbers, String lab_test, String donate, String tweets, String faq, String epass, String migrant, String corona, String cbse, String health_care, String vocational_education, String go, String video) {
         this.home_treatment_images = home_treatment_images;
         this.home_treatment_links = home_treatment_links;
         this.toll_numbers = toll_numbers;
@@ -20,6 +20,7 @@ public class Jsons {
         this.migrant = migrant;
         this.corona = corona;
         this.cbse = cbse;
+        this.health_care = health_care;
         this.vocational_education = vocational_education;
         this.go = go;
         this.video = video;
@@ -111,6 +112,14 @@ public class Jsons {
 
     public void setCbse(String cbse) {
         this.cbse = cbse;
+    }
+
+    public String getHealth_care() {
+        return health_care;
+    }
+
+    public void setHealth_care(String health_care) {
+        this.health_care = health_care;
     }
 
     public String getVocational_education() {
